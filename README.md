@@ -19,7 +19,7 @@ The final step in the system, this block uses displacement and energy consumptio
 ![range calculation](rangecalculation.jpeg)
 ### Assumptions
 The assumptions for the model are given below and are given in the parameters file
-''''
+'''
 g       = 9.81; (gravity)
 m_veh   = 180;  (weight of scooter and a single 70kg passenger)
 Crr     = 0.013; (coeffiecient of rolling resistance taken from modern electric,hybrid electric and fuel cell vehicles by Mehrdad Ehsani)
@@ -30,7 +30,7 @@ r_wheel = 0.278;  (radius of a 90-12 tire used on an ather 450x)
 E_batt  = 3700;   (3.7KWh battery capacity as listed by ather)
 Wh_per_J = 1/3600;(conversion for gain block in energy consumption)
 km_per_m = 0.001; (meters to kilometers conversion constant for multiply block )
-''''
+'''
 ### Validation
 As compared to Ather's published in city consumption of 30Wh/km using the MIDC this model gives us 48.55 Wh/Km, the higher value can be attributed to the use of the FTP75 drive cycle that is not particularly suited to scooter/moped testing.Furthermore direct motor losses are present due to the lack of gearing and unmodelled regen braking
 ### Limitations
