@@ -13,7 +13,7 @@ This block gives us the electrical and mechanical chain of the vehicle,it is imp
 ![powertrain image](powertrain.jpeg)
 ### Energy consumption
 this block takes in the current and voltage from the powertrain and uses it to get instantaneous power through a product block and energy consumed(Wh) is obtained by putting the instantaneous power through an integrate block
-![energy consumption block](energyconsumption.jpeg)
+![energy consumption block](energy consumption.jpeg)
 ### Range calculation
 The final step in the system, this block uses displacement and energy consumption to get the specific energy consumption which when used to divide the battery capacity given by the constant block gives us range
 ![range calculation](rangecalculation.jpeg)
